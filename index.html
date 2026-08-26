@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+    <div class="floating-hearts">
+        <span>💖</span>
+        <span>💗</span>
+        <span>✨</span>
+        <span>💜</span>
+        <span>💖</span>
+    </div>
+
+    <nav>
+        <div class="logo">For You Pucchu 😘💕</div>
+        <button id="musicBtn">🎵</button>
+    </nav>
+
+    <section class="hero">
+        <p class="small-text">A very special day today...</p>
+
+        <h1>Happy Birthday</h1>
+
+        <h2>My Special Person 💖</h2>
+
+        <p class="date">20 September 🎂</p>
+
+        <button class="surprise-btn" onclick="showSurprise()">
+            Open Your Surprise 🤗🎁
+        </button>
+    </section>
+
+
+    <section class="message">
+        <h2>A Little Message Form My Heart 💌</h2>
+
+        <div class="message-box">
+            <p>
+                On your special day, I just want to remind you
+                how special you are. ✨
+            </p>
+	    <p> Amar torof theke ai chotto akata upohar tomar jonno..😊 asa kori tomar pochondo hobe. Tui hocchis amar life er aman akta manus j tui na asle ami hoito jante partm na j akta BestFriend bole jinis ta ki..  Bhalobasar asol ortho ki.!! Thank you for coming in my life. I love you Forever My Jaan/Sona/Prity.😘😘😘
+	    </p>
+            <p>
+                May your smile always stay bright,
+                your dreams become reality,
+                and every day bring you happiness. 💕
+            </p>
+
+            <p class="last-line">
+                Happy Birthday Sona..! 🎂💖
+            </p>
+	    <p class="last-line">
+                 শুভ জন্মদিন! 🎂❤️
+            </p>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <h2>Beautiful Memories 📸</h2>
+
+        <div class="photo-slider">
+
+    <button class="arrow left" onclick="prevPhoto()">❮</button>
+
+    <div class="photo-frame">
+        <img id="memoryPhoto" src="images/photo1.jpg" alt="Memory">
+    </div>
+
+    <button class="arrow right" onclick="nextPhoto()">❯</button>
+
+</div>
+
+<div class="photo-dots" id="photoDots"></div>
+</section>
+
+
+    <section class="surprise" id="surprise">
+
+    <!-- Gift Box -->
+    <div class="gift-area" id="giftArea" onclick="openGift()">
+        <div class="gift-box">
+            <div class="gift-lid"></div>
+            <div class="gift-body">
+                🎁
+            </div>
+        </div>
+
+        <p>Tap the gift 🎁</p>
+    </div>
+
+
+    <!-- Cake -->
+    <div class="cake-area" id="cakeArea">
+
+        <h2>One More Thing... 💖</h2>
+
+        <div class="cake">
+
+            <div class="candles">
+
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame">🔥</div>
+                </div>
+
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame">🔥</div>
+                </div>
+
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame">🔥</div>
+                </div>
+
+            </div>
+
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+
+        </div>
+
+        <p id="candleText">
+            Tap the candles to blow them out 🕯️
+        </p>
+
+    </div>
+
+
+    <!-- Final Message -->
+
+    <div class="birthday-message" id="birthdayMessage">
+
+        <div class="big-heart">❤️</div>
+
+        <h1>HAPPY BIRTHDAY!</h1>
+
+        <h2>🎂✨💖</h2>
+
+        <p>
+            Wishing you endless happiness,
+            beautiful smiles and wonderful memories.
+        </p>
+
+    </div>
+
+</section>
+
+    <footer>
+        Made with ❤️ just for you
+    </footer>
+
+    <script src="myscrpt.js"></script>
+
+</body>
+</html>
